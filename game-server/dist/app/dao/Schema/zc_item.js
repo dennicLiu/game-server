@@ -1,0 +1,16 @@
+/**
+ * Item
+ *
+ * @author:Dennic
+ * @date:2019/5/20
+ */
+var mongoose = require("mongoose");
+var schemaObj = new mongoose.Schema({
+    uid: { type: Number, index: true, unique: true },
+    name: { type: String },
+    server_id: { type: String },
+    type: { type: Number },
+    server: { type: Number, index: true } // 所属服务器
+});
+module.exports = schemaObj;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiemNfaXRlbS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL2FwcC9kYW8vU2NoZW1hL3pjX2l0ZW0udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7Ozs7O0dBS0c7QUFDSCxJQUFJLFFBQVEsR0FBRyxPQUFPLENBQUMsVUFBVSxDQUFDLENBQUM7QUFFbkMsSUFBSSxTQUFTLEdBQUcsSUFBSSxRQUFRLENBQUMsTUFBTSxDQUFDO0lBQ2hDLEdBQUcsRUFBRSxFQUFDLElBQUksRUFBRSxNQUFNLEVBQUUsS0FBSyxFQUFFLElBQUksRUFBRSxNQUFNLEVBQUUsSUFBSSxFQUFDO0lBQzlDLElBQUksRUFBQyxFQUFDLElBQUksRUFBRSxNQUFNLEVBQUM7SUFDbkIsU0FBUyxFQUFDLEVBQUMsSUFBSSxFQUFDLE1BQU0sRUFBQztJQUN2QixJQUFJLEVBQUMsRUFBQyxJQUFJLEVBQUMsTUFBTSxFQUFDO0lBQ2xCLE1BQU0sRUFBQyxFQUFDLElBQUksRUFBQyxNQUFNLEVBQUMsS0FBSyxFQUFDLElBQUksRUFBQyxDQUFnQixRQUFRO0NBQzFELENBQUMsQ0FBQztBQUVILE1BQU0sQ0FBQyxPQUFPLEdBQUcsU0FBUyxDQUFDIn0=
