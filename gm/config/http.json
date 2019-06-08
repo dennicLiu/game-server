@@ -1,0 +1,20 @@
+{
+  "server-1": {
+  "host": "",
+  "port": ""
+},
+  "server-2": {
+    "host": "",
+    "port": ""
+  },
+  "server-3": {
+    "host": "",
+    "port": ""
+  },
+  "server-4": {
+    "host": "",
+    "port": ""
+  }
+}
+
+
