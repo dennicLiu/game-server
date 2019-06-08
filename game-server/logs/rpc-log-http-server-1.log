@@ -1,0 +1,245 @@
+[2019-06-01T15:13:33.972] [INFO] pinus - [http-server-1 application.js] application inited: "http-server-1"
+[2019-06-01T15:13:33.990] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter before start...
+[2019-06-01T15:13:33.991] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter after start...
+[2019-06-01T15:13:34.009] [WARN] logger - [http-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-01T15:13:34.021] [INFO] pinus-admin - [http-server-1 consoleService.js] try to connect master: "http", "127.0.0.1", 3005
+[2019-06-01T15:13:34.499] [WARN] logger - [http-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-01T15:13:34.500] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter after start...
+[2019-06-01T15:13:34.502] [INFO] pinus - [http-server-1 application.js] "http-server-1" finish start
+[2019-06-01T15:13:34.502] [INFO] pinus - [http-server-1 application.js] "http-server-1" startup in 519 ms
+[2019-06-01T15:13:36.136] [DEBUG] pinus - [http-server-1 monitorwatcher.js] [http-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","args":"--inspect=10003","serverType":"gate","handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/gate/handler"],"pid":4184}}
+[2019-06-01T15:13:37.112] [DEBUG] pinus - [http-server-1 monitorwatcher.js] [http-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"game-server-1","host":"127.0.0.1","port":5170,"auto-restart":"true","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/game/handler"],"pid":4185}}
+[2019-06-01T15:13:37.173] [DEBUG] pinus - [http-server-1 monitorwatcher.js] [http-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"name-server-1","host":"127.0.0.1","port":7170,"auto-restart":"true","serverType":"name","remoterPaths":[{"namespace":"sys","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"},{"namespace":"user","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/name/remote"}],"handlerPaths":[],"pid":4187}}
+[2019-06-01T15:17:41.577] [INFO] pinus - [http-server-1 application.js] application inited: "http-server-1"
+[2019-06-01T15:17:41.629] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter before start...
+[2019-06-01T15:17:41.630] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter after start...
+[2019-06-01T15:17:41.648] [WARN] logger - [http-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-01T15:17:41.654] [INFO] pinus-admin - [http-server-1 consoleService.js] try to connect master: "http", "127.0.0.1", 3005
+[2019-06-01T15:17:42.638] [WARN] logger - [http-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-01T15:17:42.641] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter after start...
+[2019-06-01T15:17:42.643] [INFO] pinus - [http-server-1 application.js] "http-server-1" finish start
+[2019-06-01T15:17:42.644] [INFO] pinus - [http-server-1 application.js] "http-server-1" startup in 1049 ms
+[2019-06-01T15:17:44.883] [DEBUG] pinus - [http-server-1 monitorwatcher.js] [http-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","args":"--inspect=10003","serverType":"gate","handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/gate/handler"],"pid":4301}}
+[2019-06-01T15:17:46.479] [DEBUG] pinus - [http-server-1 monitorwatcher.js] [http-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"name-server-1","host":"127.0.0.1","port":7170,"auto-restart":"true","serverType":"name","remoterPaths":[{"namespace":"sys","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"},{"namespace":"user","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/name/remote"}],"handlerPaths":[],"pid":4304}}
+[2019-06-01T15:17:46.928] [DEBUG] pinus - [http-server-1 monitorwatcher.js] [http-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"game-server-1","host":"127.0.0.1","port":5170,"auto-restart":"true","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/game/handler"],"pid":4302}}
+[2019-06-01T15:17:47.715] [DEBUG] pinus - [http-server-1 monitorwatcher.js] [http-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","args":"--inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/frontend"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/connector/handler"],"pid":4300}}
+[2019-06-01T15:27:21.040] [INFO] pinus - [http-server-1 application.js] application inited: "http-server-1"
+[2019-06-01T15:27:21.065] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter before start...
+[2019-06-01T15:27:21.067] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter after start...
+[2019-06-01T15:27:21.076] [WARN] logger - [http-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-01T15:27:21.087] [INFO] pinus-admin - [http-server-1 consoleService.js] try to connect master: "http", "127.0.0.1", 3005
+[2019-06-01T15:27:21.967] [WARN] logger - [http-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-01T15:27:21.969] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter after start...
+[2019-06-01T15:27:21.970] [INFO] pinus - [http-server-1 application.js] "http-server-1" finish start
+[2019-06-01T15:27:21.971] [INFO] pinus - [http-server-1 application.js] "http-server-1" startup in 922 ms
+[2019-06-01T15:27:24.217] [DEBUG] pinus - [http-server-1 monitorwatcher.js] [http-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","args":"--inspect=10003","serverType":"gate","handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/gate/handler"],"pid":4539}}
+[2019-06-01T15:27:25.707] [DEBUG] pinus - [http-server-1 monitorwatcher.js] [http-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"game-server-1","host":"127.0.0.1","port":5170,"auto-restart":"true","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/game/handler"],"pid":4540}}
+[2019-06-01T15:27:25.778] [DEBUG] pinus - [http-server-1 monitorwatcher.js] [http-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"name-server-1","host":"127.0.0.1","port":7170,"auto-restart":"true","serverType":"name","remoterPaths":[{"namespace":"sys","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"},{"namespace":"user","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/name/remote"}],"handlerPaths":[],"pid":4542}}
+[2019-06-01T16:04:45.882] [INFO] pinus - [http-server-1 application.js] application inited: "http-server-1"
+[2019-06-01T16:04:45.937] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter before start...
+[2019-06-01T16:04:45.938] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter after start...
+[2019-06-01T16:04:45.971] [WARN] logger - [http-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-01T16:04:45.997] [INFO] pinus-admin - [http-server-1 consoleService.js] try to connect master: "http", "127.0.0.1", 3005
+[2019-06-01T16:04:47.402] [WARN] logger - [http-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-01T16:04:47.404] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter after start...
+[2019-06-01T16:04:47.431] [INFO] pinus - [http-server-1 application.js] "http-server-1" finish start
+[2019-06-01T16:04:47.435] [INFO] pinus - [http-server-1 application.js] "http-server-1" startup in 1533 ms
+[2019-06-01T16:04:49.505] [DEBUG] pinus - [http-server-1 monitorwatcher.js] [http-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","args":"--inspect=10003","serverType":"gate","handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/gate/handler"],"pid":5513}}
+[2019-06-01T16:07:37.704] [INFO] pinus - [http-server-1 application.js] application inited: "http-server-1"
+[2019-06-01T16:07:37.739] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter before start...
+[2019-06-01T16:07:37.740] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter after start...
+[2019-06-01T16:07:37.756] [WARN] logger - [http-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-01T16:07:37.767] [INFO] pinus-admin - [http-server-1 consoleService.js] try to connect master: "http", "127.0.0.1", 3005
+[2019-06-01T16:07:38.518] [WARN] logger - [http-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-01T16:07:38.520] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter after start...
+[2019-06-01T16:07:38.522] [INFO] pinus - [http-server-1 application.js] "http-server-1" finish start
+[2019-06-01T16:07:38.526] [INFO] pinus - [http-server-1 application.js] "http-server-1" startup in 812 ms
+[2019-06-01T16:07:39.417] [DEBUG] pinus - [http-server-1 monitorwatcher.js] [http-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","args":"--inspect=10003","serverType":"gate","handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/gate/handler"],"pid":5593}}
+[2019-06-01T16:07:41.949] [DEBUG] pinus - [http-server-1 monitorwatcher.js] [http-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"game-server-1","host":"127.0.0.1","port":5170,"auto-restart":"true","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/game/handler"],"pid":5594}}
+[2019-06-01T16:07:42.082] [DEBUG] pinus - [http-server-1 monitorwatcher.js] [http-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"name-server-1","host":"127.0.0.1","port":7170,"auto-restart":"true","serverType":"name","remoterPaths":[{"namespace":"sys","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"},{"namespace":"user","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/name/remote"}],"handlerPaths":[],"pid":5596}}
+[2019-06-01T16:07:42.713] [DEBUG] pinus - [http-server-1 monitorwatcher.js] [http-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","args":"--inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/frontend"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/connector/handler"],"pid":5592}}
+[2019-06-01T17:12:46.230] [INFO] logger - [http-server-1 console] the content is null!
+[2019-06-01T22:59:32.388] [INFO] logger - [http-server-1 console] the content is null!
+[2019-06-02T00:00:15.071] [INFO] pinus - [http-server-1 application.js] application inited: "http-server-1"
+[2019-06-02T00:00:15.089] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter before start...
+[2019-06-02T00:00:15.090] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter after start...
+[2019-06-02T00:00:15.099] [WARN] logger - [http-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-02T00:00:15.105] [INFO] pinus-admin - [http-server-1 consoleService.js] try to connect master: "http", "127.0.0.1", 3005
+[2019-06-02T00:00:19.544] [INFO] game - [http-server-1 conn.ts] "http-server-1"[1]mongoose db connected OK!
+[2019-06-02T00:00:19.972] [WARN] logger - [http-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-02T00:00:19.973] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter after start...
+[2019-06-02T00:00:19.974] [INFO] pinus - [http-server-1 application.js] "http-server-1" finish start
+[2019-06-02T00:00:19.975] [INFO] pinus - [http-server-1 application.js] "http-server-1" startup in 4892 ms
+[2019-06-02T00:00:20.018] [DEBUG] pinus - [http-server-1 monitorwatcher.js] [http-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","args":"--inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/frontend"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/connector/handler"],"pid":10395}}
+[2019-06-02T00:48:43.951] [INFO] pinus - [http-server-1 application.js] application inited: "http-server-1"
+[2019-06-02T00:48:43.976] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter before start...
+[2019-06-02T00:48:43.978] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter after start...
+[2019-06-02T00:48:43.995] [WARN] logger - [http-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-02T00:48:44.002] [INFO] pinus-admin - [http-server-1 consoleService.js] try to connect master: "http", "127.0.0.1", 3005
+[2019-06-02T00:48:48.464] [INFO] logger - [http-server-1 console] [object Object]
+[2019-06-02T00:48:49.056] [INFO] game - [http-server-1 conn.ts] "http-server-1"[1]mongoose db connected OK!
+[2019-06-02T00:48:49.515] [WARN] logger - [http-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-02T00:48:49.516] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter after start...
+[2019-06-02T00:48:49.517] [INFO] pinus - [http-server-1 application.js] "http-server-1" finish start
+[2019-06-02T00:48:49.518] [INFO] pinus - [http-server-1 application.js] "http-server-1" startup in 5551 ms
+[2019-06-02T00:48:49.595] [DEBUG] pinus - [http-server-1 monitorwatcher.js] [http-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","args":"--inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/frontend"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/connector/handler"],"pid":11615}}
+[2019-06-02T04:34:49.809] [ERROR] pinus-admin - [http-server-1 mqttClient.js] mqtt socket is close, remote server host: 127.0.0.1, port: 3005Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at Connection.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-admin/lib/protocol/mqtt/mqttClient.ts:108:20)
+    at Connection.emit (events.js:182:13)
+    at Socket.emit (events.js:182:13)
+    at TCP._handle.close (net.js:611:12)
+[2019-06-02T04:34:50.813] [INFO] pinus-admin - [http-server-1 mqttClient.js] reconnect delay 1 s
+[2019-06-02T04:34:50.825] [ERROR] pinus-admin - [http-server-1 mqttClient.js] mqtt socket is error, remote server host: 127.0.0.1, port: 3005Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at Connection.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-admin/lib/protocol/mqtt/mqttClient.ts:113:20)
+    at Connection.emit (events.js:182:13)
+    at Socket.emit (events.js:182:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)
+[2019-06-02T04:34:50.827] [ERROR] pinus-admin - [http-server-1 mqttClient.js] mqtt socket is close, remote server host: 127.0.0.1, port: 3005Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at Connection.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-admin/lib/protocol/mqtt/mqttClient.ts:108:20)
+    at Connection.emit (events.js:182:13)
+    at Socket.emit (events.js:182:13)
+    at TCP._handle.close (net.js:611:12)
+[2019-06-02T04:34:51.397] [ERROR] game - [http-server-1 conn.ts] 断开数据库链接Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at DBConnection.OnDisconnected (/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/dao/conn.ts:122:16)
+    at NativeConnection.emit (events.js:182:13)
+    at NativeConnection.set (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/mongoose/lib/connection.js:121:12)
+    at Db.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/mongoose/lib/connection.js:593:26)
+    at Db.emit (events.js:182:13)
+    at Server.listener (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/mongodb/lib/operations/db_ops.js:340:14)
+    at Server.emit (events.js:187:15)
+    at Server.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/mongodb/lib/topologies/server.js:250:16)
+    at Server.emit (events.js:182:13)
+    at Pool.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/mongodb-core/lib/topologies/server.js:452:12)
+    at Pool.emit (events.js:182:13)
+    at connectionFailureHandler (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/mongodb-core/lib/connection/pool.js:268:10)
+    at Connection.Pool._connectionCloseHandler (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/mongodb-core/lib/connection/pool.js:152:5)
+    at Connection.emit (events.js:182:13)
+    at Socket.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/mongodb-core/lib/connection/connection.js:350:12)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at TCP._handle.close (net.js:611:12) undefined
+[2019-06-02T04:34:51.665] [ERROR] logger - [http-server-1 console] http-server-1Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1117:14)Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at process.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/preload.ts:33:17)
+    at process.emit (events.js:182:13)
+    at process.emit (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/source-map-support/source-map-support.js:461:21)
+    at process._fatalException (internal/bootstrap/node.js:622:27)
+[2019-06-02T04:34:52.012] [ERROR] logger - [http-server-1 console] http-server-1Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1117:14)Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at process.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/preload.ts:33:17)
+    at process.emit (events.js:182:13)
+    at process.emit (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/source-map-support/source-map-support.js:461:21)
+    at process._fatalException (internal/bootstrap/node.js:622:27)
+[2019-06-02T04:34:52.597] [ERROR] logger - [http-server-1 console] http-server-1Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1117:14)Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at process.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/preload.ts:33:17)
+    at process.emit (events.js:182:13)
+    at process.emit (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/source-map-support/source-map-support.js:461:21)
+    at process._fatalException (internal/bootstrap/node.js:622:27)
+[2019-06-02T04:34:52.828] [INFO] pinus-admin - [http-server-1 mqttClient.js] reconnect delay 2 s
+[2019-06-02T04:34:52.832] [ERROR] pinus-admin - [http-server-1 mqttClient.js] mqtt socket is error, remote server host: 127.0.0.1, port: 3005Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at Connection.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-admin/lib/protocol/mqtt/mqttClient.ts:113:20)
+    at Connection.emit (events.js:182:13)
+    at Socket.emit (events.js:182:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)
+[2019-06-02T04:34:52.834] [ERROR] pinus-admin - [http-server-1 mqttClient.js] mqtt socket is close, remote server host: 127.0.0.1, port: 3005Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at Connection.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-admin/lib/protocol/mqtt/mqttClient.ts:108:20)
+    at Connection.emit (events.js:182:13)
+    at Socket.emit (events.js:182:13)
+    at TCP._handle.close (net.js:611:12)
+[2019-06-02T04:34:53.587] [ERROR] logger - [http-server-1 console] http-server-1Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1117:14)Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at process.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/preload.ts:33:17)
+    at process.emit (events.js:182:13)
+    at process.emit (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/source-map-support/source-map-support.js:461:21)
+    at process._fatalException (internal/bootstrap/node.js:622:27)
+[2019-06-04T00:27:46.635] [INFO] pinus - [http-server-1 application.js] application inited: "http-server-1"
+[2019-06-04T00:27:46.659] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter before start...
+[2019-06-04T00:27:46.693] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter after start...
+[2019-06-04T00:27:46.713] [WARN] logger - [http-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-04T00:27:46.754] [INFO] pinus-admin - [http-server-1 consoleService.js] try to connect master: "http", "127.0.0.1", 3005
+[2019-06-04T00:27:51.553] [INFO] logger - [http-server-1 console] [object Object]
+[2019-06-04T00:27:52.041] [INFO] game - [http-server-1 conn.ts] "http-server-1"[1]mongoose db connected OK!
+[2019-06-04T00:27:52.067] [WARN] logger - [http-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-04T00:27:52.075] [INFO] pinus - [http-server-1 application.js] "http-server-1" enter after start...
+[2019-06-04T00:27:52.082] [DEBUG] pinus - [http-server-1 monitorwatcher.js] [http-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"game-server-1","host":"127.0.0.1","port":5170,"auto-restart":"true","args":"--inspect=10004","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/game/handler"],"pid":711}}
+[2019-06-04T00:27:52.091] [INFO] pinus - [http-server-1 application.js] "http-server-1" finish start
+[2019-06-04T00:27:52.111] [INFO] pinus - [http-server-1 application.js] "http-server-1" startup in 5460 ms
+[2019-06-04T00:27:52.135] [DEBUG] pinus - [http-server-1 monitorwatcher.js] [http-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"name-server-1","host":"127.0.0.1","port":7170,"auto-restart":"true","args":"--inspect=10006","serverType":"name","remoterPaths":[{"namespace":"sys","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"},{"namespace":"user","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/name/remote"}],"handlerPaths":[],"pid":713}}
+[2019-06-04T00:27:52.861] [DEBUG] pinus - [http-server-1 monitorwatcher.js] [http-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","args":"--inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/frontend"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/connector/handler"],"pid":709}}
+[2019-06-04T01:52:43.782] [ERROR] pinus-admin - [http-server-1 mqttClient.js] mqtt socket is close, remote server host: 127.0.0.1, port: 3005Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at Connection.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-admin/lib/protocol/mqtt/mqttClient.ts:108:20)
+    at Connection.emit (events.js:182:13)
+    at Socket.emit (events.js:182:13)
+    at TCP._handle.close (net.js:611:12)
+[2019-06-04T01:52:44.398] [ERROR] game - [http-server-1 conn.ts] 断开数据库链接Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at DBConnection.OnDisconnected (/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/dao/conn.ts:122:16)
+    at NativeConnection.emit (events.js:182:13)
+    at NativeConnection.set (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/mongoose/lib/connection.js:121:12)
+    at Db.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/mongoose/lib/connection.js:593:26)
+    at Db.emit (events.js:182:13)
+    at Server.listener (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/mongodb/lib/operations/db_ops.js:340:14)
+    at Server.emit (events.js:187:15)
+    at Server.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/mongodb/lib/topologies/server.js:250:16)
+    at Server.emit (events.js:182:13)
+    at Pool.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/mongodb-core/lib/topologies/server.js:452:12)
+    at Pool.emit (events.js:182:13)
+    at connectionFailureHandler (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/mongodb-core/lib/connection/pool.js:268:10)
+    at Connection.Pool._connectionCloseHandler (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/mongodb-core/lib/connection/pool.js:152:5)
+    at Connection.emit (events.js:182:13)
+    at Socket.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/mongodb-core/lib/connection/connection.js:350:12)
+    at Object.onceWrapper (events.js:273:13)
+    at Socket.emit (events.js:182:13)
+    at TCP._handle.close (net.js:611:12) undefined
+[2019-06-04T01:52:44.662] [ERROR] logger - [http-server-1 console] http-server-1Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1117:14)Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at process.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/preload.ts:33:17)
+    at process.emit (events.js:182:13)
+    at process.emit (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/source-map-support/source-map-support.js:461:21)
+    at process._fatalException (internal/bootstrap/node.js:622:27)
+[2019-06-04T01:52:44.787] [INFO] pinus-admin - [http-server-1 mqttClient.js] reconnect delay 1 s
+[2019-06-04T01:52:44.790] [ERROR] pinus-admin - [http-server-1 mqttClient.js] mqtt socket is error, remote server host: 127.0.0.1, port: 3005Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at Connection.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-admin/lib/protocol/mqtt/mqttClient.ts:113:20)
+    at Connection.emit (events.js:182:13)
+    at Socket.emit (events.js:182:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)
+[2019-06-04T01:52:44.792] [ERROR] pinus-admin - [http-server-1 mqttClient.js] mqtt socket is close, remote server host: 127.0.0.1, port: 3005Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at Connection.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-admin/lib/protocol/mqtt/mqttClient.ts:108:20)
+    at Connection.emit (events.js:182:13)
+    at Socket.emit (events.js:182:13)
+    at TCP._handle.close (net.js:611:12)
+[2019-06-04T01:52:45.009] [ERROR] logger - [http-server-1 console] http-server-1Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1117:14)Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at process.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/preload.ts:33:17)
+    at process.emit (events.js:182:13)
+    at process.emit (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/source-map-support/source-map-support.js:461:21)
+    at process._fatalException (internal/bootstrap/node.js:622:27)
+[2019-06-04T01:52:45.590] [ERROR] logger - [http-server-1 console] http-server-1Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1117:14)Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at process.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/preload.ts:33:17)
+    at process.emit (events.js:182:13)
+    at process.emit (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/source-map-support/source-map-support.js:461:21)
+    at process._fatalException (internal/bootstrap/node.js:622:27)

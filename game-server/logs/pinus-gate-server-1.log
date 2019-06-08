@@ -1,0 +1,225 @@
+[2019-06-01T15:13:35.127] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2019-06-01T15:13:35.748] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2019-06-01T15:13:35.754] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2019-06-01T15:13:35.765] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2019-06-01T15:13:36.150] [WARN] logger - [gate-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-01T15:13:36.157] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2019-06-01T15:13:36.169] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2019-06-01T15:13:36.176] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 1038 ms
+[2019-06-01T15:13:37.113] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"game-server-1","host":"127.0.0.1","port":5170,"auto-restart":"true","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/game/handler"],"pid":4185}}
+[2019-06-01T15:13:37.173] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"name-server-1","host":"127.0.0.1","port":7170,"auto-restart":"true","serverType":"name","remoterPaths":[{"namespace":"sys","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"},{"namespace":"user","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/name/remote"}],"handlerPaths":[],"pid":4187}}
+[2019-06-01T15:16:34.029] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2019-06-01T15:16:34.337] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":500}, receivers: [1], opts: {"type":"response"}
+[2019-06-01T15:16:34.352] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1000
+[2019-06-01T15:17:43.354] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2019-06-01T15:17:44.283] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2019-06-01T15:17:44.286] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2019-06-01T15:17:44.307] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2019-06-01T15:17:44.916] [WARN] logger - [gate-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-01T15:17:44.925] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2019-06-01T15:17:44.938] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2019-06-01T15:17:44.947] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 1562 ms
+[2019-06-01T15:17:46.480] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"name-server-1","host":"127.0.0.1","port":7170,"auto-restart":"true","serverType":"name","remoterPaths":[{"namespace":"sys","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"},{"namespace":"user","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/name/remote"}],"handlerPaths":[],"pid":4304}}
+[2019-06-01T15:17:46.923] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"game-server-1","host":"127.0.0.1","port":5170,"auto-restart":"true","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/game/handler"],"pid":4302}}
+[2019-06-01T15:17:47.716] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","args":"--inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/frontend"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/connector/handler"],"pid":4300}}
+[2019-06-01T15:18:03.258] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2019-06-01T15:18:03.797] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [1], opts: {"type":"response"}
+[2019-06-01T15:18:03.821] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1000
+[2019-06-01T15:24:27.456] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 2
+[2019-06-01T15:24:27.807] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [2], opts: {"type":"response"}
+[2019-06-01T15:24:27.882] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 2,uid:null,reason:1000
+[2019-06-01T15:25:06.202] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 3
+[2019-06-01T15:25:06.235] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 4, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [3], opts: {"type":"response"}
+[2019-06-01T15:25:06.248] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 3,uid:null,reason:1000
+[2019-06-01T15:25:53.801] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 4
+[2019-06-01T15:25:53.862] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [4], opts: {"type":"response"}
+[2019-06-01T15:25:53.894] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 4,uid:null,reason:1000
+[2019-06-01T15:26:49.506] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 5
+[2019-06-01T15:26:49.557] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [5], opts: {"type":"response"}
+[2019-06-01T15:26:49.580] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 5,uid:null,reason:1000
+[2019-06-01T15:27:22.912] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2019-06-01T15:27:23.692] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2019-06-01T15:27:23.697] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2019-06-01T15:27:23.707] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2019-06-01T15:27:24.232] [WARN] logger - [gate-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-01T15:27:24.241] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2019-06-01T15:27:24.260] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2019-06-01T15:27:24.271] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 1345 ms
+[2019-06-01T15:27:25.708] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"game-server-1","host":"127.0.0.1","port":5170,"auto-restart":"true","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/game/handler"],"pid":4540}}
+[2019-06-01T15:27:25.778] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"name-server-1","host":"127.0.0.1","port":7170,"auto-restart":"true","serverType":"name","remoterPaths":[{"namespace":"sys","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"},{"namespace":"user","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/name/remote"}],"handlerPaths":[],"pid":4542}}
+[2019-06-01T16:04:46.217] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2019-06-01T16:04:48.370] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2019-06-01T16:04:48.387] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2019-06-01T16:04:48.394] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2019-06-01T16:04:49.529] [WARN] logger - [gate-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-01T16:04:49.533] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2019-06-01T16:04:49.538] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2019-06-01T16:04:49.540] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 3314 ms
+[2019-06-01T16:07:37.643] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2019-06-01T16:07:38.864] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2019-06-01T16:07:38.865] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2019-06-01T16:07:38.881] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2019-06-01T16:07:39.429] [WARN] logger - [gate-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-01T16:07:39.430] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2019-06-01T16:07:39.438] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2019-06-01T16:07:39.439] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 1785 ms
+[2019-06-01T16:07:41.950] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"game-server-1","host":"127.0.0.1","port":5170,"auto-restart":"true","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/game/handler"],"pid":5594}}
+[2019-06-01T16:07:42.082] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"name-server-1","host":"127.0.0.1","port":7170,"auto-restart":"true","serverType":"name","remoterPaths":[{"namespace":"sys","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"},{"namespace":"user","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/name/remote"}],"handlerPaths":[],"pid":5596}}
+[2019-06-01T16:07:42.714] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","args":"--inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/frontend"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/connector/handler"],"pid":5592}}
+[2019-06-01T16:19:45.276] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2019-06-01T16:19:46.112] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [1], opts: {"type":"response"}
+[2019-06-01T16:19:46.133] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1000
+[2019-06-01T17:12:46.757] [INFO] logger - [gate-server-1 console] the content is null!
+[2019-06-01T19:31:52.804] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 2
+[2019-06-01T19:31:52.819] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [2], opts: {"type":"response"}
+[2019-06-01T19:31:52.822] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 2,uid:null,reason:1000
+[2019-06-01T22:59:33.003] [INFO] logger - [gate-server-1 console] the content is null!
+[2019-06-01T23:57:48.345] [INFO] logger - [gate-server-1 console] the content is null!
+[2019-06-02T00:00:15.200] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2019-06-02T00:00:16.243] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2019-06-02T00:00:16.244] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2019-06-02T00:00:16.252] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2019-06-02T00:00:16.833] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2019-06-02T00:00:16.838] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2019-06-02T00:00:16.840] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 1625 ms
+[2019-06-02T00:00:19.378] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"game-server-1","host":"127.0.0.1","port":5170,"auto-restart":"true","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/game/handler"],"pid":10397}}
+[2019-06-02T00:00:19.457] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"name-server-1","host":"127.0.0.1","port":7170,"auto-restart":"true","serverType":"name","remoterPaths":[{"namespace":"sys","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"},{"namespace":"user","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/name/remote"}],"handlerPaths":[],"pid":10399}}
+[2019-06-02T00:00:19.887] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"http-server-1","host":"127.0.0.1","port":6170,"auto-restart":"true","serverType":"http","remoterPaths":[{"namespace":"sys","serverType":"http","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"},{"namespace":"user","serverType":"http","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/handler"],"pid":10398}}
+[2019-06-02T00:00:19.889] [WARN] logger - [gate-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-02T00:00:20.012] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","args":"--inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/frontend"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/connector/handler"],"pid":10395}}
+[2019-06-02T00:01:23.416] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2019-06-02T00:01:23.991] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [1], opts: {"type":"response"}
+[2019-06-02T00:01:24.000] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1000
+[2019-06-02T00:48:43.760] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2019-06-02T00:48:44.920] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2019-06-02T00:48:44.927] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2019-06-02T00:48:44.936] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2019-06-02T00:48:45.538] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2019-06-02T00:48:45.543] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2019-06-02T00:48:45.544] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 1772 ms
+[2019-06-02T00:48:48.686] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"name-server-1","host":"127.0.0.1","port":7170,"auto-restart":"true","serverType":"name","remoterPaths":[{"namespace":"sys","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"},{"namespace":"user","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/name/remote"}],"handlerPaths":[],"pid":11619}}
+[2019-06-02T00:48:49.207] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"game-server-1","host":"127.0.0.1","port":5170,"auto-restart":"true","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/game/handler"],"pid":11617}}
+[2019-06-02T00:48:49.208] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"http-server-1","host":"127.0.0.1","port":6170,"auto-restart":"true","serverType":"http","remoterPaths":[{"namespace":"sys","serverType":"http","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"},{"namespace":"user","serverType":"http","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/handler"],"pid":11618}}
+[2019-06-02T00:48:49.210] [WARN] logger - [gate-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-02T00:48:49.585] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","args":"--inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/frontend"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/connector/handler"],"pid":11615}}
+[2019-06-02T02:05:18.540] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] getSession session is created with session id: 1
+[2019-06-02T02:05:18.772] [DEBUG] pinus - [gate-server-1 connector.js] [gate-server-1] send message reqId: 1, route: gate.gateHandler.queryEntry, msg: {"code":200,"host":"127.0.0.1","port":3050}, receivers: [1], opts: {"type":"response"}
+[2019-06-02T02:05:18.779] [DEBUG] pinus - [gate-server-1 sessionService.js] session on [gate-server-1] is closed with session id: 1,uid:null,reason:1000
+[2019-06-02T04:34:49.826] [ERROR] pinus-admin - [gate-server-1 mqttClient.js] mqtt socket is close, remote server host: 127.0.0.1, port: 3005Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at Connection.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-admin/lib/protocol/mqtt/mqttClient.ts:108:20)
+    at Connection.emit (events.js:182:13)
+    at Socket.emit (events.js:182:13)
+    at TCP._handle.close (net.js:611:12)
+[2019-06-02T04:34:50.833] [INFO] pinus-admin - [gate-server-1 mqttClient.js] reconnect delay 1 s
+[2019-06-02T04:34:50.842] [ERROR] pinus-admin - [gate-server-1 mqttClient.js] mqtt socket is error, remote server host: 127.0.0.1, port: 3005Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at Connection.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-admin/lib/protocol/mqtt/mqttClient.ts:113:20)
+    at Connection.emit (events.js:182:13)
+    at Socket.emit (events.js:182:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)
+[2019-06-02T04:34:50.845] [ERROR] pinus-admin - [gate-server-1 mqttClient.js] mqtt socket is close, remote server host: 127.0.0.1, port: 3005Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at Connection.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-admin/lib/protocol/mqtt/mqttClient.ts:108:20)
+    at Connection.emit (events.js:182:13)
+    at Socket.emit (events.js:182:13)
+    at TCP._handle.close (net.js:611:12)
+[2019-06-02T04:34:51.662] [ERROR] logger - [gate-server-1 console] gate-server-1Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1117:14)Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at process.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/preload.ts:33:17)
+    at process.emit (events.js:182:13)
+    at process.emit (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/source-map-support/source-map-support.js:461:21)
+    at process._fatalException (internal/bootstrap/node.js:622:27)
+[2019-06-02T04:34:52.012] [ERROR] logger - [gate-server-1 console] gate-server-1Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1117:14)Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at process.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/preload.ts:33:17)
+    at process.emit (events.js:182:13)
+    at process.emit (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/source-map-support/source-map-support.js:461:21)
+    at process._fatalException (internal/bootstrap/node.js:622:27)
+[2019-06-02T04:34:52.597] [ERROR] logger - [gate-server-1 console] gate-server-1Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1117:14)Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at process.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/preload.ts:33:17)
+    at process.emit (events.js:182:13)
+    at process.emit (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/source-map-support/source-map-support.js:461:21)
+    at process._fatalException (internal/bootstrap/node.js:622:27)
+[2019-06-02T04:34:52.850] [INFO] pinus-admin - [gate-server-1 mqttClient.js] reconnect delay 2 s
+[2019-06-02T04:34:52.855] [ERROR] pinus-admin - [gate-server-1 mqttClient.js] mqtt socket is error, remote server host: 127.0.0.1, port: 3005Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at Connection.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-admin/lib/protocol/mqtt/mqttClient.ts:113:20)
+    at Connection.emit (events.js:182:13)
+    at Socket.emit (events.js:182:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)
+[2019-06-02T04:34:52.856] [ERROR] pinus-admin - [gate-server-1 mqttClient.js] mqtt socket is close, remote server host: 127.0.0.1, port: 3005Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at Connection.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-admin/lib/protocol/mqtt/mqttClient.ts:108:20)
+    at Connection.emit (events.js:182:13)
+    at Socket.emit (events.js:182:13)
+    at TCP._handle.close (net.js:611:12)
+[2019-06-02T04:34:53.588] [ERROR] logger - [gate-server-1 console] gate-server-1Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1117:14)Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at process.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/preload.ts:33:17)
+    at process.emit (events.js:182:13)
+    at process.emit (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/source-map-support/source-map-support.js:461:21)
+    at process._fatalException (internal/bootstrap/node.js:622:27)
+[2019-06-04T00:27:46.581] [INFO] pinus - [gate-server-1 application.js] application inited: "gate-server-1"
+[2019-06-04T00:27:47.785] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter before start...
+[2019-06-04T00:27:47.798] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2019-06-04T00:27:47.827] [INFO] pinus-admin - [gate-server-1 consoleService.js] try to connect master: "gate", "127.0.0.1", 3005
+[2019-06-04T00:27:48.614] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" enter after start...
+[2019-06-04T00:27:48.652] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" finish start
+[2019-06-04T00:27:48.661] [INFO] pinus - [gate-server-1 application.js] "gate-server-1" startup in 2055 ms
+[2019-06-04T00:27:51.988] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"http-server-1","host":"127.0.0.1","port":6170,"auto-restart":"true","args":"--inspect=10005","serverType":"http","remoterPaths":[{"namespace":"sys","serverType":"http","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"},{"namespace":"user","serverType":"http","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/handler"],"pid":712}}
+[2019-06-04T00:27:52.003] [WARN] logger - [gate-server-1 console] path is empty, path:/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/http/remote
+[2019-06-04T00:27:52.029] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"game-server-1","host":"127.0.0.1","port":5170,"auto-restart":"true","args":"--inspect=10004","serverType":"game","remoterPaths":[{"namespace":"sys","serverType":"game","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/game/handler"],"pid":711}}
+[2019-06-04T00:27:52.104] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","zone":"cn","id":"name-server-1","host":"127.0.0.1","port":7170,"auto-restart":"true","args":"--inspect=10006","serverType":"name","remoterPaths":[{"namespace":"sys","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/backend"},{"namespace":"user","serverType":"name","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/name/remote"}],"handlerPaths":[],"pid":713}}
+[2019-06-04T00:27:52.862] [DEBUG] pinus - [gate-server-1 monitorwatcher.js] [gate-server-1] receive addServer signal: {"action":"addServer","server":{"main":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/tsrun","env":"development","id":"connector-server-1","host":"127.0.0.1","port":4050,"clientPort":3050,"frontend":"true","args":"--inspect=10001","serverType":"connector","remoterPaths":[{"namespace":"sys","serverType":"connector","path":"/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus/dist/lib/common/remote/frontend"}],"handlerPaths":["/Users/macbookpro/Desktop/tyrannosaurus/game-server/app/servers/connector/handler"],"pid":709}}
+[2019-06-04T01:52:43.792] [ERROR] pinus-admin - [gate-server-1 mqttClient.js] mqtt socket is close, remote server host: 127.0.0.1, port: 3005Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at Connection.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-admin/lib/protocol/mqtt/mqttClient.ts:108:20)
+    at Connection.emit (events.js:182:13)
+    at Socket.emit (events.js:182:13)
+    at TCP._handle.close (net.js:611:12)
+[2019-06-04T01:52:44.662] [ERROR] logger - [gate-server-1 console] gate-server-1Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1117:14)Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at process.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/preload.ts:33:17)
+    at process.emit (events.js:182:13)
+    at process.emit (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/source-map-support/source-map-support.js:461:21)
+    at process._fatalException (internal/bootstrap/node.js:622:27)
+[2019-06-04T01:52:44.797] [INFO] pinus-admin - [gate-server-1 mqttClient.js] reconnect delay 1 s
+[2019-06-04T01:52:44.799] [ERROR] pinus-admin - [gate-server-1 mqttClient.js] mqtt socket is error, remote server host: 127.0.0.1, port: 3005Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at Connection.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-admin/lib/protocol/mqtt/mqttClient.ts:113:20)
+    at Connection.emit (events.js:182:13)
+    at Socket.emit (events.js:182:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process.internalTickCallback (internal/process/next_tick.js:72:19)
+[2019-06-04T01:52:44.802] [ERROR] pinus-admin - [gate-server-1 mqttClient.js] mqtt socket is close, remote server host: 127.0.0.1, port: 3005Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at Connection.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-admin/lib/protocol/mqtt/mqttClient.ts:108:20)
+    at Connection.emit (events.js:182:13)
+    at Socket.emit (events.js:182:13)
+    at TCP._handle.close (net.js:611:12)
+[2019-06-04T01:52:45.010] [ERROR] logger - [gate-server-1 console] gate-server-1Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1117:14)Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at process.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/preload.ts:33:17)
+    at process.emit (events.js:182:13)
+    at process.emit (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/source-map-support/source-map-support.js:461:21)
+    at process._fatalException (internal/bootstrap/node.js:622:27)
+[2019-06-04T01:52:45.594] [ERROR] logger - [gate-server-1 console] gate-server-1Caught exception: Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1117:14)Error
+    at Object.pLogger.(anonymous function) [as error] (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/pinus-logger/lib/logger.ts:72:34)
+    at process.<anonymous> (/Users/macbookpro/Desktop/tyrannosaurus/game-server/preload.ts:33:17)
+    at process.emit (events.js:182:13)
+    at process.emit (/Users/macbookpro/Desktop/tyrannosaurus/game-server/node_modules/source-map-support/source-map-support.js:461:21)
+    at process._fatalException (internal/bootstrap/node.js:622:27)
