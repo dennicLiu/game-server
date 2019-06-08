@@ -1,0 +1,23 @@
+export const config = {
+    "active_skill": "id",
+    "attribute": "id",
+    "chapter": "id",
+    "equip_level_up": "id",
+    "equip_quality_level": "quality",
+    "equip_suit": "id",
+    "module": "id",
+    "hero": "id",
+    "s_hero_level_attribute_add": "min_level",
+    "s_hero_level_up_cost": "level",
+    "s_hero_quality_up_cost": "id",
+    "s_hero_star": "star",
+    "item": "id",
+    "level": "level",
+    "monster_attribute": "id",
+    "passive_skill": "id",
+    "skill_unlock": "id",
+    "special_effects": "id",
+    "synthesis": "",
+    "world_galaxy": "id",
+    "random_name":"id"
+};
